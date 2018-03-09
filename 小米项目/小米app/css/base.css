@@ -1,0 +1,66 @@
+html,body,div,span,p,ul,li,form,input,select,option,textarea,a,img,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 0;
+}
+body{
+	font-size: 14px;
+	font-family: "微软雅黑", sans-serif;
+	color: #333333;
+}
+a{text-decoration: none;color: #333333;}
+ul,li{list-style: none;}
+img{vertical-align: middle;}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix::before,.clearfix::after{
+	content:'';
+	clear: both;
+	height: 0;
+	display: block;
+	visibility: hidden;
+	overflow: hidden;
+}
+[class^=icon]{
+	background: url(../img/1.png) no-repeat;
+}
+//!--固定导航栏开始-->
+.mi-foooternav{
+     background: white;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+
+}
+.mi-bnav ul li{
+  float: left;
+  width: 20%;
+  height: 50px;
+  text-align: center;
+  
+}
+.mi-bnav ul li a{
+ background: white;
+ display: block;
+ height: 50px;
+}
+.mi-bnav ul li span{
+	display: block;
+	width: 35px;
+	height: 30px;
+	background: url(../img/2.png);
+
+	margin-left: 25%;
+}
+.mi-bnav ul  span:first-child{
+	background-position: -33px 66px;
+}
+//<!--固定导航栏结束-->

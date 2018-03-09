@@ -1,0 +1,308 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #cccccc;
+}
+.cart_box {
+  margin: 0 auto;
+  width: 100%;
+  min-width: 320px;
+  max-width: 640px;
+}
+.mi_header {
+  width: 100%;
+  background: white;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #CCCCCC;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.mi_header .car {
+  display: block;
+  height: 50px;
+  width: 100px;
+  float: left;
+  margin-left: 40%;
+  font-size: 18px;
+  font-weight: normal;
+}
+.mi_header span {
+  margin-right: 10px;
+  display: block;
+  float: right;
+  font-size: 14px;
+}
+.mi_header a {
+  width: 30px;
+  height: 30px;
+  display: block;
+  background: url(../img/1236.jpg) no-repeat;
+  background-size: 40px 40px;
+  background-position: -7px -6px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.shop_box {
+  width: 100%;
+  margin-top: 50px;
+}
+.shop {
+  width: 100%;
+  margin-bottom: 5px;
+  background: white;
+}
+.shop .shop-l {
+  float: left;
+  width: 40px;
+}
+.shop .shop-l a {
+  background: url(../img/shop-icon.png) no-repeat;
+  background-size: 50px 100px;
+  background-origin: content-box;
+  background-clip: content-box;
+  padding: 8px 10px;
+  display: block;
+  width: 40px;
+  height: 34px;
+  margin-top: 35px;
+}
+.shop .shop-l a[checked] {
+  background-position-x: -25px;
+}
+.shop .shop-r {
+  width: 100%;
+  padding-left: 40px;
+  padding-top: 10px;
+  height: 100px;
+}
+.shop .shop-r .pro_img {
+  display: block;
+  width: 80px;
+  height: 80px;
+  border: 1px solid #CCCCCC;
+  float: left;
+}
+.shop .shop-r .pro_img img {
+  width: 100%;
+}
+.shop .shop-r .shop_info {
+  width: 100%;
+  padding-left: 95px;
+  line-height: 24px;
+}
+.shop .shop-r .shop_info a {
+  display: block;
+  font-size: 16px;
+}
+.shop .shop-r .shop_info p {
+  color: #CCCCCC;
+  font-size: 14px;
+}
+.shop .shop-r .shop_info .info_option {
+  width: 100%;
+}
+.shop .shop-r .shop_info .info_option .money {
+  float: left;
+}
+.shop .shop-r .shop_info .info_option .money span {
+  color: orange;
+  font-size: 16px;
+}
+.shop .shop-r .shop_info .info_option .money .old {
+  text-decoration: line-through;
+  color: #CCCCCC;
+  font-size: 14px;
+}
+.shop .shop-r .shop_info .info_option .change_num {
+  float: right;
+  text-align: center;
+  line-height: 30px;
+  padding-right: 10px;
+}
+.shop .shop-r .shop_info .info_option .change_num span {
+  display: block;
+  border: 1px solid #CCCCCC;
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+.shop .shop-r .shop_info .info_option .change_num input {
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  float: left;
+  border-top: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+}
+.shopout {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background: white;
+  display: none;
+  color: red;
+}
+.shopout p {
+  height: 100px;
+}
+.nav {
+  width: 100%;
+  background: white;
+}
+.nav ul {
+  width: 100%;
+  background: white;
+}
+.nav ul li {
+  width: 49.5%;
+  margin-bottom: 5px;
+}
+.nav ul li img {
+  width: 100%;
+}
+.nav ul li p {
+  padding-left: 10px;
+}
+.nav ul li p span {
+  text-decoration: line-through;
+  color: #CCCCCC;
+  font-size: 10px;
+  margin-left: 5px;
+}
+.nav ul li p:nth-child(3n) {
+  color: #CCCCCC;
+  font-size: 14px;
+}
+.nav ul li p:nth-child(4n) {
+  color: orange;
+}
+.nav ul li:nth-child(2n-1) {
+  float: left;
+}
+.nav ul li:nth-child(2n) {
+  float: right;
+}
+.tip {
+  text-align: center;
+  height: 50px;
+  background: #dadada;
+  line-height: 50px;
+  padding-bottom: 150px;
+}
+.cart_all {
+  background: white;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  left: 0;
+  bottom: 50px;
+  border-bottom: 1px solid #CCCCCC;
+  line-height: 50px;
+}
+.cart_all .mi_check {
+  background: url(../img/shop-icon.png) no-repeat;
+  background-size: 50px 100px;
+  background-origin: content-box;
+  background-clip: content-box;
+  padding: 8px 10px;
+  display: block;
+  width: 38px;
+  height: 34px;
+  float: left;
+  margin-top: 8px;
+}
+.cart_all .mi_check[checked] {
+  background-position-x: -25px;
+}
+.cart_all p {
+  margin-left: 10%;
+  float: left;
+}
+.cart_all p span {
+  color: orange;
+}
+.cart_all .all_check {
+  margin-left: 0px;
+}
+.cart_all a:last-child {
+  float: right;
+  display: block;
+  width: 150px;
+  text-align: center;
+  background: #CCCCCC;
+  color: white;
+}
+.delete {
+  background: white;
+  width: 80%;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  bottom: 50px;
+  border-bottom: 1px solid #CCCCCC;
+  line-height: 50px;
+  text-align: center;
+  display: none;
+}
+.delete .move {
+  display: block;
+  width: 50%;
+  background: #fb6a03;
+  color: white;
+  float: left;
+}
+.delete .del {
+  display: block;
+  width: 50%;
+  background: red;
+  color: white;
+  float: right;
+}
+.mask {
+  display: none;
+  width: 100%;
+  height: 150px;
+  position: fixed;
+  left: 0;
+  bottom: 45%;
+  background: white;
+  text-align: center;
+  z-index: 100;
+}
+.mask h3 {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #CCCCCC;
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+.mask a {
+  line-height: 30px;
+  height: 30px;
+  width: 40%;
+  display: block;
+  float: left;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.mask a:last-child {
+  background: #fb6a03;
+  color: white;
+  float: right;
+  margin-right: 20px;
+}
+.mi-foooternav {
+  background: white;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  left: 0;
+  bottom: 0px;
+  border-bottom: 1px solid #CCCCCC;
+}

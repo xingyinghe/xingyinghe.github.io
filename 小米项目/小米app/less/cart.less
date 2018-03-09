@@ -1,0 +1,323 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    background: #cccccc;
+}
+.cart_box{
+  margin: 0 auto;
+  width: 100%;
+  min-width: 320px;
+  max-width: 640px;
+}
+//<!--头部导航栏开始-->
+.mi_header{
+    width: 100%;
+    background: white;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #CCCCCC;
+     position: fixed;
+    left: 0;
+    top: 0;
+    .car{
+        display: block;
+        height: 50px;
+        width: 100px;        
+        float: left;
+        margin-left: 40%;
+        font-size: 18px;
+        font-weight: normal;
+    }
+    span{
+        margin-right: 10px;
+        display: block;
+        float: right;
+         font-size: 14px;
+    }
+    a{
+        width: 30px;
+        height: 30px;
+        display: block;
+        background: url(../img/1236.jpg) no-repeat;
+         background-size:40px 40px;
+           background-position: -7px -6px;
+        float: right;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+}
+//<!--头部导航栏结束-->
+//<!--商品开始-->
+.shop_box{
+    width: 100%;
+    margin-top: 50px;
+}
+.shop{
+    width: 100%;
+    margin-bottom: 5px;
+    background: white;
+    .shop-l{
+        float: left;
+        width: 40px;       
+        a{
+            background:url(../img/shop-icon.png) no-repeat;
+            background-size: 50px 100px;
+            background-origin: content-box;
+            background-clip: content-box;
+            padding: 8px 10px;
+            display: block;
+            width: 40px;
+            height: 34px;
+            margin-top: 35px;
+            &[checked]{
+                    background-position-x: -25px;
+                }
+        }
+        
+    }//shop_l
+    .shop-r{
+        width: 100%;
+        padding-left: 40px;
+        padding-top: 10px;
+        height: 100px;
+        .pro_img{
+            display: block;
+            width: 80px;
+            height: 80px;
+            border: 1px solid #CCCCCC;
+            float: left;
+            img{
+                width: 100%;
+            }
+        }//.pro_img
+        .shop_info{
+            width: 100%;
+            padding-left: 95px;
+            line-height: 24px;
+            a{
+                display: block;
+                font-size: 16px;
+            }
+            p{
+                color: #CCCCCC;
+                font-size: 14px;
+            }
+            .info_option{
+                width: 100%;
+                .money{
+                    float: left;
+                    span{
+                        color: orange;
+                        font-size: 16px; 
+                    }
+                    .old{
+                        text-decoration: line-through;
+                        color: #CCCCCC;
+                        font-size: 14px;
+                    }
+                }
+                .change_num{
+                    float: right;
+                    text-align: center;
+                    line-height: 30px;
+                    padding-right: 10px;
+                    span{
+                        display: block;
+                        border: 1px solid #CCCCCC;
+                        width: 30px;
+                        height: 30px;
+                        float: left;
+                    }
+                    input{
+                        text-align: center;
+                        width: 30px;
+                        height: 30px;
+                        float: left;
+                        border-top: 1px solid #CCCCCC;
+                        border-bottom: 1px solid #CCCCCC;
+                    }
+                }
+            }
+        }//shop_info
+    }
+}
+//<!--商品结束-->
+//<!--商品为空提示开始-->
+.shopout{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background: white;
+    display: none;
+    color: red;
+    p{
+        height: 100px;
+    }
+}
+//<!--商品为空提示结束-->
+//<!--广告开始-->
+.nav{
+    width: 100%;
+    background: white;
+    ul{
+        width: 100%;
+        background: white;
+        li{
+            width: 49.5%;
+            margin-bottom: 5px;
+            img{
+                width:100%;
+            }
+            p{
+                padding-left: 10px;  
+              span{
+                  text-decoration: line-through;
+                  color: #CCCCCC;
+                  font-size: 10px;
+                  margin-left: 5px;
+              }  
+            }
+            p:nth-child(3n){
+                color: #CCCCCC;
+                font-size: 14px;
+            } 
+            p:nth-child(4n){
+                color: orange;
+            }  
+           
+        }
+        li:nth-child(2n-1){
+            float: left;     
+        }
+        li:nth-child(2n){
+            float: right; 
+        }
+    }
+}
+//<!--广告结束-->
+//<!--提示开始-->
+.tip{
+    text-align: center;
+    height: 50px;
+    background: #dadada;
+    line-height: 50px;
+    padding-bottom: 150px;
+}
+//<!--提示结束-->
+//<!--结算栏开始-->
+.cart_all{
+    background: white;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 50px;
+    border-bottom: 1px solid #CCCCCC;
+    line-height: 50px;
+     .mi_check{
+        background:url(../img/shop-icon.png) no-repeat;
+        background-size: 50px 100px;
+        background-origin: content-box;
+        background-clip: content-box;
+        padding: 8px 10px;
+        display: block;
+        width: 38px;
+        height: 34px; 
+        float: left;
+        margin-top: 8px;
+        &[checked]{
+                    background-position-x: -25px;
+                }
+        }
+    p{
+       margin-left: 10%;
+        float: left;
+      span{
+            color:orange;
+        }
+    }
+    .all_check{
+      margin-left:0px;  
+    }
+    a:last-child{
+        float: right;
+        display: block;
+        width: 150px;
+        text-align: center;
+        background: #CCCCCC;
+        color: white;
+    }
+}
+.delete{
+    background: white;
+    width: 80%;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    bottom: 50px;
+    border-bottom: 1px solid #CCCCCC;
+    line-height: 50px;
+    text-align: center;
+    display: none;
+    .move{
+        display: block;
+        width: 50%;
+        background: #fb6a03;
+        color: white;
+        float: left;
+    }
+    .del{
+        display: block;
+        width: 50%;
+        background: red;
+        color: white;
+        float: right;
+    }
+}
+//<!--结算栏结束-->
+
+.mask{
+    display: none;
+    width: 100%;
+    height: 150px;
+     position: fixed;
+    left: 0;
+    bottom: 45%;
+    background: white;
+    text-align: center;
+    z-index: 100;
+    h3{
+        height: 50px;
+        line-height: 50px;
+        border-bottom: 1px solid #CCCCCC;
+       font-weight: normal;
+       margin-bottom: 50px;
+    }
+    a{
+        line-height: 30px;
+        height: 30px;
+        width: 40%;
+        display: block;
+        float: left;
+        border: 1px solid #333333;
+        border-radius: 5px;
+        margin-left: 20px;
+    }
+    a:last-child{
+        background:#fb6a03;
+        color: white;
+        float: right;
+        margin-right: 20px;
+    }
+}
+//<!--固定导航栏开始-->
+.mi-foooternav{
+     background: white;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    border-bottom: 1px solid #CCCCCC;
+}

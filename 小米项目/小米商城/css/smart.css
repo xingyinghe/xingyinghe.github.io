@@ -1,0 +1,443 @@
+html,body{
+  width: 100%;
+ 
+  height: 100%;
+}
+.mi-home{
+  margin: 0 auto;
+  width: 100%;
+  height: 1000%;
+  min-width: 320px;
+  max-width: 640px;
+  
+  
+  
+  
+  
+}
+.jd_product{
+  width: 100%;
+  height: 1px;
+  overflow: hidden;
+}
+.mi-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 100;
+ 
+}
+.mi-header .mi-header-box {
+  width: 100%;
+  height: 40px;
+  min-width: 320px;
+  max-width: 640px;
+  margin: 0 auto;
+  background: rgba(201, 21, 35, 0);
+  position: relative;
+}
+.mi-header .mi-header-box .icon-icon-test{
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  width: 50px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #FFFFFF;
+  font-size:28px;
+  
+}
+.mi-header .mi-header-box .scan{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #FFFFFF;
+  font-size:28px;
+}
+.mi-header .mi-header-box form {
+  width: 100%;
+  padding: 0 50px 0 60px;
+  position: relative;
+}
+.mi-header .mi-header-box form input {
+  width: 100%;
+  height: 30px;
+  border-radius: 15px;
+  padding-left: 30px;
+  margin-top: 4px;
+}
+.mi-header .mi-header-box form .icon-search{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+ 
+  top: 10px;
+  left: 67px;
+}
+.mi-nav{
+  width: 100%;
+  height: 40px;
+  
+  min-width: 320px;
+  max-width: 640px;
+  margin: 0 auto;
+  background:black;
+  opacity: 0.4;
+ 
+  
+  
+  
+}
+.mi-nav ul li{
+  float: left;
+  width: 16.66%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  
+  
+  
+}
+.mi-nav ul li a{
+  color: white;
+  
+  
+}
+.jd_banner {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.jd_banner ul {
+  width: 1000%;
+}
+.jd_banner ul li {
+  float: left;
+  width: 10%;
+}
+.jd_banner ul li a {
+  display: block;
+  width: 100%;
+}
+.jd_banner ul li a img {
+  width: 100%;
+  display: block;
+}
+.jd_banner ul:last-child {
+  width: 118px;
+  height: 6px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -59px;
+}
+.jd_banner ul:last-child li {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  float: left;
+  margin-left: 10px;
+}
+.jd_banner ul:last-child li:first-child {
+  margin-left: 0;
+}
+.jd_banner ul:last-child li.active {
+  background: #FFFFFF;
+}
+
+
+
+
+.mi-home .smart-banner{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+ 
+}
+.smsrt-banner ul{
+  width: 1000%;
+ 
+  
+}
+.smart-banner ul li{
+  float: left;
+  width: 10%;
+  
+}
+.smart-banner ul li a {
+  display: block;
+  width: 100%;
+}
+.smart-banner ul li a img {
+ 
+  width: 100%;
+  display: block;
+}
+.smart-content{
+  width: 100%;
+  height: 3480px;
+ background: darkred;
+ 
+}
+.smart-content3{ width: 100%;
+  height: 3550px;
+ background: darkred;
+ }
+ .smart-content5{ width: 100%;
+  height: 3560px;
+ background: darkred;
+ }
+
+.smart-content-tit.smart-content3-tit,.smart-content5-tit{
+  width: 100%;
+  height: 80px;
+ 
+  
+  
+}
+.mtop
+{
+  margin-top: 80px;
+}
+.smart-content-tit p,.smart-content3-tit p,.smart-content5-tit p{
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  color:goldenrod;
+  font-size: 32px;
+  padding-bottom: 80px;
+  
+  
+}
+
+.smart-content2{
+  width: 100%;
+  height: 3640px;
+  background: goldenrod;
+ 
+ 
+}
+.smart-content4{
+   width: 100%;
+  height: 3560px;
+  background: goldenrod;
+}
+.smart-content2-tit{
+  width: 100%;
+  height: 160px;
+  margin-top: 10px;
+  border-bottom: 80px;
+}
+.smart-content4-tit{
+   width: 100%;
+  height: 80px;
+  margin-top: 10px;
+}
+
+.smart-content2-tit p,.smart-content4-tit p{
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  color:darkred;
+  font-size: 32px;
+  
+  
+}
+.smart-product,.smart-product2,.smart-product3,.smart-product4,.smart-product5{
+  width: 100%;
+  height: 100%;
+ 
+ 
+  margin-left: 2%;
+}
+.smart-product ul li,.smart-product2 ul li,.smart-product3 ul li,.smart-product4 ul li,.smart-product5 ul li{
+  
+  width: 96%;
+  height: 400px;
+  float: left;
+  margin-top: 10px;
+  
+  
+}
+.smart-product ul li img,.smart-product2 ul li img,.smart-product3 ul li img,.smart-product4 ul li img,.smart-product5 ul li img{
+  width: 100%;
+ /* height: 55%;*/
+  
+  
+  
+}
+.smart-product div,.smart-product2 div,.smart-product3 div,.smart-product4 div,.smart-product5 div{
+  width: 100%;
+  height: 25%;
+  background: white;
+  
+  
+  
+}
+.smart-product div ul li,.smart-product2 div ul li,.smart-product3 div ul li,.smart-product4 div ul li,.smart-product5 div ul li{
+  width: 50%;
+  height: 100px;
+  
+  float: left;
+  
+  
+}
+.smart-product .word,.smart-product2 .word,.smart-product3 .word,.smart-product4 .word,.smart-product5 .word{
+  width: 50%;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  float: left;
+  
+  
+}
+.smart-product .word p,.smart-product2 .word p,.smart-product3 .word p,.smart-product4 .word p,.smart-product5 .word p{
+  display: block;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  
+  
+}
+.pbig{
+  font-size: 22px;
+  color: black;
+  
+  
+}
+.smart-product .buybox,.smart-product2 .buybox,.smart-product3 .buybox,.smart-product4 .buybox,.smart-product5 .buybox{
+  width: 50%;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  float:right;
+  position: relative;
+  
+}
+.smart-product .buybox .buy,.smart-product2 .buybox .buy,.smart-product3 .buybox .buy,.smart-product4 .buybox .buy,.smart-product5 .buybox .buy{
+  width: 40%;
+  height: 40px;
+  border-radius: 2px;
+  text-align: center;
+  line-height: 40px;
+  background: firebrick;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  
+  
+}
+.smart-product .buybox .buy a,.smart-product2 .buybox .buy a,.smart-product3 .buybox .buy a,.smart-product4 .buybox .buy a,.smart-product5 .buybox .buy a{
+  color: white;
+}
+.smart-product .buybox span,.smart-product2 .buybox span,.smart-product3 .buybox span,.smart-product4 .buybox span,.smart-product5 .buybox span{
+  width: 30%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color:red;
+  display: block;
+  margin-left: 60%;
+  margin-top: 20px;
+  
+  
+  
+}
+.smart-product2 .tv,.smart-product4 .tv{
+  width: 96%;
+  height: 400px;
+  float: left;
+  background: goldenrod;
+  margin-top: 10px;
+  
+  
+  
+}
+.smart-product .tv,.smart-product3 .tv,.smart-product5 .tv{
+  width: 96%;
+  height: 400px;
+  float: left;
+  background: darkred;
+  margin-top: 10px;
+}
+.clearmargin{
+  margin-top: none;
+}
+.smart-product .tv ul li,.smart-product2 .tv ul li,.smart-product3 .tv ul li,.smart-product4 .tv ul li,.smart-product5 .tv ul li{
+  width: 50%;
+  height: 400px;
+  margin-top: 0;
+  
+  
+}
+.smart-product .tv ul li img,.smart-product2 .tv ul li img,.smart-product5 .tv ul li img,.smart-product3 .tv ul li img,.smart-product4 .tv ul li img{
+  width: 98%;
+  height:50%;
+  background-size:250px;
+  margin-right: 1%;
+ 
+}
+.smart-product .tv ul li div,.smart-product2 .tv ul li div,.smart-product3 .tv ul li div,.smart-product4 .tv ul li div,.smart-product5 .tv ul li div{
+ width: 98%;
+  height: 50%;
+ 
+  background: white;
+} 
+.smart-product .tv ul li div span,.smart-product2 .tv ul li div span,.smart-product3 .tv ul li div span,.smart-product4 .tv ul li div span,.smart-product5 .tv ul li div span{
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  float: left;
+  margin-top: 5px;
+  
+  
+}
+.smart-product .tv ul li div span i,.smart-product2 .tv ul li div span i,.smart-product3 .tv ul li div span i,.smart-product4 .tv ul li div span i,.smart-product5 .tv ul li div span i{
+  color: red;
+}
+.smart-product .tv .buy,.smart-product2 .tv .buy,.smart-product3 .tv .buy,.smart-product4 .tv .buy,.smart-product5 .tv .buy{
+   width: 40%;
+  height: 30px;
+  border-radius: 2px;
+  text-align: center;
+  line-height: 30px;
+  background: firebrick;
+  margin-left: 30%;
+}
+.smart-product .tv .buy a,.smart-product2 .tv .buy a,.smart-product3 .tv .buy a,.smart-product4 .tv .buy a,.smart-product5 .tv .buy a{
+  color: white;
+}
+.size-20{
+  font-size: 20px;
+  color: black;
+}
+.smart-product .tv img,.smart-product2 .tv img,.smart-product3 .tv img,.smart-product4 .tv img,.smart-product5 .tv img{
+  width: 100%;
+  height: 62%;
+  margin-top: none;
+  
+  
+}
+.smart-content .Lbox,.smart-content2 .Lbox,.smart-content3 .Lbox,.smart-content4 .Lbox,.smart-content5 .Lbox{
+  width: 100%;
+  height: 200px;
+  float: left;
+  margin-left: -2%;
+}
+.smart-content .Lbox img,.smart-content2 .Lbox img,.smart-content3 .Lbox img,.smart-content4 .Lbox img,.smart-content5 .Lbox img{
+  width: 100%;
+  height: 200px;
+  margin-left: none;
+}

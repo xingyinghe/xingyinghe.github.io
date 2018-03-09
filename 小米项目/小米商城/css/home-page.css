@@ -1,0 +1,448 @@
+html,body{
+  width: 100%;
+ 
+  height: 100%;
+}
+.mi-home{
+  margin: 0 auto;
+  width: 100%;
+  height: 1000%;
+  min-width: 320px;
+  max-width: 640px;
+  
+  
+  
+  
+  
+}
+.navbox{
+  width: 100%;
+  min-width: 320px;
+  max-width: 640px;
+}
+.navbox img{
+  width: 100%;
+  min-width: 320px;
+  max-width: 640px;
+}
+.mi-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 100;
+ 
+}
+.mi-header .mi-header-box {
+  width: 100%;
+  height: 40px;
+  min-width: 320px;
+  max-width: 640px;
+  margin: 0 auto;
+  background: rgba(201, 21, 35, 0);
+  position: relative;
+}
+.mi-header .mi-header-box .icon-icon-test{
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  width: 50px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #FFFFFF;
+  font-size:28px;
+  
+}
+.mi-header .mi-header-box .scan{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #FFFFFF;
+  font-size:28px;
+}
+.mi-header .mi-header-box form {
+  width: 100%;
+  padding: 0 50px 0 60px;
+  position: relative;
+}
+.mi-header .mi-header-box form input {
+  width: 100%;
+  height: 30px;
+  border-radius: 15px;
+  padding-left: 30px;
+  margin-top: 4px;
+}
+.mi-header .mi-header-box form .icon-search{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+ 
+  top: 10px;
+  left: 67px;
+}
+.mi-nav{
+  width: 100%;
+  height: 40px;
+  
+  min-width: 320px;
+  max-width: 640px;
+  margin: 0 auto;
+  background:black;
+  opacity: 0.4;
+ 
+  
+  
+  
+}
+.mi-nav ul li{
+  float: left;
+  width: 16.66%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  
+  
+  
+}
+.mi-nav ul li a{
+  color: white;
+  
+  
+}
+
+
+.mi-poster{
+  width: 100%;
+  
+  
+  
+  
+  
+}
+.mi-poster img{
+  width: 100%;
+ 
+  
+  
+  
+}
+.mi-content{
+  width: 100%;
+  height: 3480px;
+ background: darkred;
+ 
+}
+.mi-content3{ width: 100%;
+  height: 3550px;
+ background: darkred;
+ }
+ .mi-content5{ width: 100%;
+  height: 3560px;
+ background: darkred;
+ }
+
+.mi-content-tit.mi-content3-tit,.mi-content5-tit{
+  width: 100%;
+  height: 80px;
+ 
+  
+  
+}
+.mtop
+{
+  margin-top: 80px;
+}
+.mi-content-tit p,.mi-content3-tit p,.mi-content5-tit p{
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  color:goldenrod;
+  font-size: 32px;
+  padding-bottom: 80px;
+  
+  
+}
+
+.mi-content2{
+  width: 100%;
+  height: 3640px;
+  background: goldenrod;
+ 
+ 
+}
+.mi-content4{
+   width: 100%;
+  height: 3560px;
+  background: goldenrod;
+}
+.mi-content2-tit{
+  width: 100%;
+  height: 160px;
+  margin-top: 10px;
+  border-bottom: 80px;
+}
+.mi-content4-tit{
+   width: 100%;
+  height: 80px;
+  margin-top: 10px;
+}
+
+.mi-content2-tit p,.mi-content4-tit p{
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  color:darkred;
+  font-size: 32px;
+  
+  
+}
+.mi-product,.mi-product2,.mi-product3,.mi-product4,.mi-product5{
+  width: 100%;
+  height: 100%;
+ 
+ 
+  margin-left: 2%;
+}
+.mi-product ul li,.mi-product2 ul li,.mi-product3 ul li,.mi-product4 ul li,.mi-product5 ul li{
+  
+  width: 96%;
+  height: 400px;
+  float: left;
+  margin-top: 10px;
+  
+  
+}
+.mi-product ul li img,.mi-product2 ul li img,.mi-product3 ul li img,.mi-product4 ul li img,.mi-product5 ul li img{
+  width: 100%;
+  background-size:100%;
+  height: 75%;
+
+
+  
+  
+  
+}
+.mi-product div,.mi-product2 div,.mi-product3 div,.mi-product4 div,.mi-product5 div{
+  width: 100%;
+  height: 25%;
+  background: white;
+  
+  
+  
+}
+.mi-product div ul li,.mi-product2 div ul li,.mi-product3 div ul li,.mi-product4 div ul li,.mi-product5 div ul li{
+  width: 50%;
+  height: 100px;
+  
+  float: left;
+  
+  
+}
+.mi-product .word,.mi-product2 .word,.mi-product3 .word,.mi-product4 .word,.mi-product5 .word{
+  width: 50%;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  float: left;
+  
+  
+}
+.mi-product .word p,.mi-product2 .word p,.mi-product3 .word p,.mi-product4 .word p,.mi-product5 .word p{
+  display: block;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  overflow: hidden;
+  
+  
+}
+.pbig{
+  font-size: 16px;
+  color: black;
+  
+  
+}
+.mi-product .buybox,.mi-product2 .buybox,.mi-product3 .buybox,.mi-product4 .buybox,.mi-product5 .buybox{
+  width: 50%;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  float:right;
+  position: relative;
+  
+}
+.mi-product .buybox .buy,.mi-product2 .buybox .buy,.mi-product3 .buybox .buy,.mi-product4 .buybox .buy,.mi-product5 .buybox .buy{
+  width: 40%;
+  height: 40px;
+  border-radius: 2px;
+  text-align: center;
+  line-height: 40px;
+  background: firebrick;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  
+  
+}
+.mi-product .buybox .buy a,.mi-product2 .buybox .buy a,.mi-product3 .buybox .buy a,.mi-product4 .buybox .buy a,.mi-product5 .buybox .buy a{
+  color: white;
+}
+.mi-product .buybox span,.mi-product2 .buybox span,.mi-product3 .buybox span,.mi-product4 .buybox span,.mi-product5 .buybox span{
+  width: 30%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color:red;
+  display: block;
+  margin-left: 60%;
+  margin-top: 20px;
+  
+  
+  
+}
+.mi-product2 .tv,.mi-product4 .tv{
+  width: 96%;
+  height: 400px;
+  float: left;
+  background: goldenrod;
+  margin-top: 10px;
+  
+  
+  
+}
+.mi-product .tv,.mi-product3 .tv,.mi-product5 .tv{
+  width: 96%;
+  height: 400px;
+  float: left;
+  background: darkred;
+  margin-top: 10px;
+}
+.clearmargin{
+  margin-top: none;
+}
+.mi-product .tv ul li,.mi-product2 .tv ul li,.mi-product3 .tv ul li,.mi-product4 .tv ul li,.mi-product5 .tv ul li{
+  width: 50%;
+  height: 400px;
+  margin-top: 0;
+  
+  
+}
+.mi-product .tv ul li img,.mi-product2 .tv ul li img ,.mi-product5 .tv ul li img,.mi-product3 .tv ul li img,.mi-product4 .tv ul li img{
+  width: 98%;
+  height:50%;
+  background-size:250px;
+  margin-right: 1%;
+ 
+}
+.mi-product .tv ul li div,.mi-product2 .tv ul li div,.mi-product3 .tv ul li div,.mi-product4 .tv ul li div,.mi-product5 .tv ul li div{
+  width: 98%;
+  height: 50%;
+  background: bisque;
+} 
+.mi-product .tv ul li div span,.mi-product2 .tv ul li div span,.mi-product3 .tv ul li div span,.mi-product4 .tv ul li div span,.mi-product5 .tv ul li div span{
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  float: left;
+  margin-top: 10px;
+  
+  
+}
+.mi-product .tv ul li div span i,.mi-product2 .tv ul li div span i,.mi-product3 .tv ul li div span i,.mi-product4 .tv ul li div span i,.mi-product5 .tv ul li div span i{
+  color: red;
+}
+.mi-product .tv .buy,.mi-product2 .tv .buy,.mi-product3 .tv .buy,.mi-product4 .tv .buy,.mi-product5 .tv .buy{
+  width: 40%;
+  height: 30px;
+  border-radius: 2px;
+  text-align: center;
+  line-height: 30px;
+  background: firebrick;
+  margin-left: 30%;
+}
+.mi-product .tv .buy a,.mi-product2 .tv .buy a,.mi-product3 .tv .buy a,.mi-product4 .tv .buy a,.mi-product5 .tv .buy a{
+  color: white;
+}
+.size-20{
+  font-size: 16px;
+  color: black;
+}
+.mi-product .tv img,.mi-product2 .tv img,.mi-product3 .tv img,.mi-product4 .tv img,.mi-product5 .tv img{
+  width: 100%;
+  height: 62%;
+  margin-top: none;
+  
+  
+}
+
+.mi-content .Lbox,.mi-content2 .Lbox,.mi-content3 .Lbox,.mi-content4 .Lbox,.mi-content5 .Lbox{
+  width: 100%;
+  height: 200px;
+  float: left;
+  margin-left: -2%;
+}
+.mi-content .Lbox img,.mi-content2 .Lbox img,.mi-content3 .Lbox img,.mi-content4 .Lbox img,.mi-content5 .Lbox img{
+  width: 100%;
+  height: 200px;
+  margin-left: none;
+}
+.mi-home .mi-bnav{
+  
+  margin: 0 auto;
+  width: 100%;
+  height: 40px;
+  z-index: 100;
+  min-width: 320px;
+  max-width: 640px;
+  
+  
+  
+}
+.mi-bnav ul li{
+  float: left;
+  width: 20%;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  
+  
+}
+
+.mi-bnav ul li a{
+  color: black;
+  display: block;
+  font-size: 12px;
+  color: black;
+}
+.mi-bnav ul li a i{
+  font-size: 16px;
+  color: black;
+  
+  
+  
+}
+
+.mi-bnav ul li a i:hover,.mi-bnav ul li a:hover{
+  color: orangered;
+}
+.mi-foooternav{
+  width: 100%;
+  height: 40px;
+  background: white;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  
+  
+}
+
